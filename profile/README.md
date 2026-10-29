@@ -2,7 +2,7 @@
 
 **Secure Post-Quantum-Safe Billing & Payment Platform That Heals and Scales Itself.**
 
-Bill8 is the billing layer of the Sentin8 platform — a complete payments and billing product that lets any merchant accept money, manage recurring revenue, onboard sellers, and pay out funds, all with a provable, replayable audit trail.
+Bill8 is the billing layer of the Sentin8 platform - a complete payments and billing product that lets any merchant accept money, manage recurring revenue, onboard sellers, and pay out funds, all with a provable, replayable audit trail.
 
 ## Services
 
@@ -41,11 +41,11 @@ Bill8 depends on these Sentin8 platform services for cross-cutting concerns:
 
 ## Key Invariants
 
-- **Money integrity** — every cent moved is a double-entry balance transaction; refunds and disputes are compensating records, so the books can never silently drift
-- **One money executor** — all financial movement realizes through Bill8:Ledger via the public API
-- **Idempotent by construction** — retries can never double-post
-- **Rail freedom** — merchants select settlement channels (platform finance, external acquirer, bank rails) with routing and reconciliation; new channels onboard without product changes
-- **Frictionless acceptance** — merchants accept one-off and recurring payments through hosted checkout pages with no card-handling code
+- **Money integrity** - every cent moved is a double-entry balance transaction; refunds and disputes are compensating records, so the books can never silently drift
+- **One money executor** - all financial movement realizes through Bill8:Ledger via the public API
+- **Idempotent by construction** - retries can never double-post
+- **Rail freedom** - merchants select settlement channels (platform finance, external acquirer, bank rails) with routing and reconciliation; new channels onboard without product changes
+- **Frictionless acceptance** - merchants accept one-off and recurring payments through hosted checkout pages with no card-handling code
 
 ---
 
