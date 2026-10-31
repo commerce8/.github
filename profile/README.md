@@ -4,6 +4,17 @@
 
 Bill8 is the billing layer of the Sentin8 platform - a complete payments and billing product that lets any merchant accept money, manage recurring revenue, onboard sellers, and pay out funds, all with a provable, replayable audit trail.
 
+> **A note on our history.** If you found your way here looking for
+> **PRIME** - `authPrime`, `exchangePRIME`, and family - you're in the
+> right place. Those projects are this one: our open-source
+> work is now rebranded to **Sentin8** (this vertical is **Bill8**) to
+> avoid confusion with other brand names and products. At the same
+> time we left our self-hosted **Apache SVN** behind and moved
+> everything to GitHub. The lineage goes back further than you might
+> expect - here's a fun LinkedIn read from 2017, when the platform was
+> still called PRIME and still lived on SVN:
+> [Advanced Hybrid Securities Exchange](https://www.linkedin.com/pulse/advanced-hybrid-securities-exchange-hamid-jahanzad/).
+
 ## Services
 
 | Service | Domain | What it does |
